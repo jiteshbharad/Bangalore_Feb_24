@@ -1,0 +1,40 @@
+1. Consider a <div> element with the following CSS properties:
+
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid #000;
+    box-sizing: ???;
+
+If you want the total rendered width of the <div> element, including its content, padding, and border, to be exactly 300 pixels, what should you set the box-sizing property to, and why?
+
+
+
+
+2. Consider the below html structure 
+
+<div>
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+      <div>D</div>
+</div>
+<div>
+      <div>E</div>
+      <div>F</div>
+      <div>G</div>
+      <div>H</div>
+</div>
+Which statement will change the background color of text B  to blue
+a)div> div:first-child{
+    background-color:blue;
+    }
+b)div:first-child > div:nth-child(2) 
+{    
+    background-color: blue;       
+}
+c)div:first-child > div:first-child + div
+{   
+    background-color: blue;
+}
+d)Both II and III are correct -->
